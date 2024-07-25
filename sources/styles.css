@@ -2,28 +2,33 @@
   --bold-lining: bold;
   --main-purple: #6c63ff;
 
+  --main-size: 84px;
+  --heading-size: 48px;
+  --sub-size: 22px;
+
   --small-para-background: #f5f2fe;
   --email-text: #834ed2;
 }
 
 .main-container {
-  margin: 300px auto;
+  margin: 60px auto;
+  max-width: 800px;
   text-align: center;
 }
 
 .heading {
   font-weight: var(--bold-lining);
-  font-size: 36px;
+  font-size: var(--main-size);
 }
 
 .name {
   font-weight: var(--bold-lining);
-  font-size: 48px;
+  font-size: var(--main-size);
 }
 
 .sub {
   font-weight: var(--bold-lining);
-  font-size: 22px;
+  font-size: var(--sub-size);
 }
 
 .button-container {
@@ -32,7 +37,7 @@
   margin: 50px;
 }
 
-a:hover {
+.button-container a:hover {
   background: var(--main-purple);
   color: white;
   box-shadow: 1px 4px 13px 0px rgba(0, 0, 0, 0.44);
@@ -47,7 +52,54 @@ a:hover {
   color: var(--main-purple);
 }
 
-** About Section ** .title {
-  font-weight: var(--bold-lining);
-  font-size: 48px;
+body {
+  margin: 60px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.about-container a {
+  color: var(--main-purple);
+}
+
+.about-sub {
+  font-size: var(--sub-size);
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.para-container {
+  display: flex;
+  margin: 30px 0;
+}
+
+.para-container p {
+  margin: 10px;
+}
+
+p {
+  background: #f5f2fe;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.small-para {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: var(--heading-size);
+  margin: 0;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  color: var(--main-purple);
+  font-size: var(--sub-size);
+  text-decoration: none;
 }
