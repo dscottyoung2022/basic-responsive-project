@@ -1,0 +1,53 @@
+:root {
+  --bold-lining: bold;
+  --main-purple: #6c63ff;
+
+  --small-para-background: #f5f2fe;
+  --email-text: #834ed2;
+}
+
+.main-container {
+  margin: 300px auto;
+  text-align: center;
+}
+
+.heading {
+  font-weight: var(--bold-lining);
+  font-size: 36px;
+}
+
+.name {
+  font-weight: var(--bold-lining);
+  font-size: 48px;
+}
+
+.sub {
+  font-weight: var(--bold-lining);
+  font-size: 22px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+a:hover {
+  background: var(--main-purple);
+  color: white;
+  box-shadow: 1px 4px 13px 0px rgba(0, 0, 0, 0.44);
+}
+
+.button {
+  text-decoration: none;
+  border: 2px solid var(--main-purple);
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin: 0px 20px;
+  color: var(--main-purple);
+}
+
+** About Section ** .title {
+  font-weight: var(--bold-lining);
+  font-size: 48px;
+}
